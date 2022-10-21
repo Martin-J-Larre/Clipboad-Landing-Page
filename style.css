@@ -1,4 +1,4 @@
-/*TODO:First Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
 
 *{
     margin: 0;
@@ -6,8 +6,20 @@
     box-sizing: border-box;
 }
 :root{
-    --strong-cyan: hsl(171, 66%, 44%)
-    --light-blue: hsl(233, 100%, 69%)
-    --dark-grayish-blue: hsl(210, 10%, 33%)
-    --grayish-blue: hsl(201, 11%, 66%)
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: var(--dark-grayish-blue);
+}
+header{
+    background-image: url('/images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
 }
