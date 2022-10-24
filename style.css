@@ -20,7 +20,7 @@ body{
     color: var(--dark-grayish-blue);
 }
 header{
-    background-image: url('/images/bg-header-desktop.png');
+    background-image: url('./images/bg-header-desktop.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding:40px 0 20px 0;
